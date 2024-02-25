@@ -2,7 +2,7 @@ const SAE = {
     "projet 1": {
       "titre": "Auditer une communication numérique",
       "compétences": ["Comprendre"],
-      "description": "Cette SAE doit amener les étudiants à utiliser des outils d’audit objectifs comme les guides de bonne pratique ou les référentiels de qualité pour évaluer un site web.<br>Elle met en pratique les concepts théoriques explorés dans les ressources liées à la culture numérique, à la stratégie de communication et à l’économie.<br>Elle permet la mise en oeuvre des outils d’analyse statistique sur des données variées : données de trafic, sondages d’opinion ou études socio-économiques.",
+      "description": "Cette SAE doit amener les étudiants à utiliser des outils d’audit objectifs comme les guides de bonne pratique ou les référentiels de qualité pour évaluer un site web.<br>Elle met en pratique les concepts théoriques explorés dans les ressources liées à la culture numérique, à la stratégie de communication et à l’économie.<br>Elle permet la mise en oeuvre des outils d’analyse statistique sur des données variées : données de trafic, sondages d’opinion ou études socio-économiques. ",
       "AC": {
         "AC11.01": "Présenter une organisation, ses activités et son environnement (économique, sociologique, culturel, juridique, technologique, communicationnel et médiatique)",
         "AC11.02": "Évaluer un site web, un produit multimédia ou un dispositif interactif existant en s’appuyant sur des guides de bonnes pratiques",
@@ -70,9 +70,11 @@ const SAE = {
         "R1.14": "Représentation et traitement de l’information"
       },
       "livrables": {
-        "Moodboard d'inspiration.": "Les étudiants ont réalisé un moodboard pour répertorier leurs inspirations."
+        "Moodboard d'inspiration.": "Les étudiants ont réalisé un moodboard pour répertorier leurs inspirations.",
+        "motif sur illustrator.": "Les étudiants ont réalisé un moodboard pour répertorier leurs inspirations.",
+        "Mockup sur Photoshop.": "Les étudiants ont réalisé un moodboard pour répertorier leurs inspirations.",
       },
-      "réalisation": "Pour cette troisième SAE nous avons eu à « sauver le MISE ».<br>Nous avons alors du choisir un thème, pour ma part, les insectes volants, et créer des motifs afin de remplacer ceux qui ont été volés au MISE, le musée de l’impression sur étoffe, nous avons alors eu à créer des planches d’inspiration, des m’occupe et des motifs sur Illustrator pour ce travail.",
+      "réalisation": "Pour cette troisième SAE nous avons eu à « sauver le MISE ».<br>Nous avons alors du choisir un thème, pour ma part, les insectes volants, et créer des motifs afin de remplacer ceux qui ont été volés au MISE, le musée de l’impression sur étoffe, nous avons alors eu à créer des planches d’inspiration, des mockup et des motifs sur Illustrator pour ce travail.",
       "semestre": 1
     },
   
@@ -92,7 +94,7 @@ const SAE = {
         "R1.14": "Représentation et traitement de l’information"
       },
       "livrables": {
-        "Une vidéo rythmée, chargée en contenu, bien illustrée, bien éclairée, le son doit être excellent. La vidéo doit être en langue anglaise OU sous-titrée en anglais.": "Les étudiants ont réalisé une vidéo pour la M2A, une analyse cinématographique poru un public cinéphile !",
+        "Une vidéo rythmée, chargée en contenu, bien illustrée, bien éclairée, le son doit être excellent. La vidéo doit être en langue anglaise OU sous-titrée en anglais.": "Les étudiants ont réalisé une vidéo pour la M2A, une analyse cinématographique pour un public cinéphile !",
       },
       "réalisation": "Pour cette SAE nous avons réalisé un court métrage dans lequel nous avons eu à analyser la manière dont est représentée la dystopie dans les films futuristes.<br>Nous avons alors réalisé une vidéo dans laquelle Néo, personnage de matrix ira à travers les différents univers afin de rencontrer les différents mondes dystopiques qui expliciterons leurs situations.<br>Nous avons alors pour cette SAE du chercher de nombreux décors, et utiliser des procédés de montages nouveaux afin de créer une vidéo de qualité.",
       "semestre": 1
