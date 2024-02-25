@@ -1,5 +1,5 @@
 const SAE = {
-    "SAE1.01": {
+    "projet 1": {
       "titre": "Auditer une communication numérique",
       "compétences": ["Comprendre"],
       "description": "Cette SAE doit amener les étudiants à utiliser des outils d’audit objectifs comme les guides de bonne pratique ou les référentiels de qualité pour évaluer un site web.<br>Elle met en pratique les concepts théoriques explorés dans les ressources liées à la culture numérique, à la stratégie de communication et à l’économie.<br>Elle permet la mise en oeuvre des outils d’analyse statistique sur des données variées : données de trafic, sondages d’opinion ou études socio-économiques.",
@@ -24,13 +24,13 @@ const SAE = {
         "un audit d'ergonomie UX": "Les étudiants ont dû réaliser un audit d'ergonomie UX, une analyse de l'expérience utilisateur, sa facilitée à naviguer sur le site.",
         "un audit de design graphique UI": "Les étudiants ont dû réaliser un audit de design UI, une analyse de l'interface du site web, les couleurs et les animations, les éléments qui contribueront à la satisfaction d'un utilisateur.",
         "un audit sémiologique": "Les étudiants ont dû réaliser un audit sémiologique, l'étude des signes et des images, du language et de la communication visuelle, le but est alors d'explorer comment ces signes influencent la perception et véhiculent les informations.",
-        "Un dossier final regroupera les 5 audits.": "Le dossier final regroupe simplement les autres audits.",
+        "Un dossier final regroupera les 5 audits": "Le dossier final regroupe simplement les autres audits.",
       },
       "réalisation": "Pour le premier projet nous devions analyser un site internet, j’ai alors choisi, au sein de la liste de sites proposée le site de la paris Games Week, tous les sites étaient événementiels<br>Nous avons alors eu à fournir un audit du site web, l’audit comprenait un audit technique, un audit de contexte, un audit sémiologique, un audit d’ergonomie UX, un audit de design graphique, ainsi qu’un dossier final regroupant chaque audit.<br>Si dessous voici la page de garde de l’Audit technique. ",
       "semestre": 1
     },
   
-    "SAE1.02": {
+    "projet 2": {
       "titre": "Concevoir une recommandation de communication numérique",
       "compétences": ["Concevoir"],
       "description": "En tant que chargés de communication juniors, les étudiants conçoivent une recommandation de communication pour la sortie ou le repositionnement d’un produit ou d’un service dans un contexte international.",
@@ -55,7 +55,7 @@ const SAE = {
       "semestre": 1
     },
   
-    "SAE1.03": {
+    "projet 3": {
       "titre": "Produire les éléments d’une communication visuelle",
       "compétences": ["Exprimer"],
       "description": "En tant qu’infographistes juniors, les étudiants doivent mener un travail de conception, de création et de production d’éléments visuels pour une campagne de communication telle que la couverture d’un événement, la sortie d’un produit ou un travail de positionnement d’une nouvelle marque.",
@@ -76,7 +76,7 @@ const SAE = {
       "semestre": 1
     },
   
-    "SAE1.04": {
+    "projet 4": {
       "titre": "Produire un contenu audio et vidéo",
       "compétences": ["Exprimer"],
       "description": "Cette SAE permet aux étudiants d’explorer les bases de la production audiovisuelle pour répondre à un objectif de communication simple, dans un contexte international.<br>Elle permet de découvrir les outils et méthodes de conception de scénario multimédia.<br>Une partie significative des voix-off, des sous-titres ou incrustations doit être en <b>anglais</b> ou dans une autre langue étrangère.",
@@ -98,7 +98,7 @@ const SAE = {
       "semestre": 1
     },
   
-    "SAE1.05": {
+    "projet 5": {
       "titre": "Produire un site Web",
       "compétences": ["Développer"],
       "description": "En tant qu’intégrateurs ou développeurs juniors dans une agence Web, les étudiants doivent mener un travail de conception, d’intégration et de développement des vues d’un site Web. Le cahier des charges comprend la description des éléments statiques de l’application et un jeu de données structurées représentant un échantillon des contenus à mettre en ligne.",
@@ -120,7 +120,7 @@ const SAE = {
       "semestre": 1
     },
   
-    "SAE1.06": {
+    "projet 6": {
       "titre": "Gérer un projet de communication numérique",
       "compétences": ["Entreprendre"],
       "description": "En se basant sur un objectif de communication, les étudiants doivent mener un travail de gestion de projet pour le déploiement de cette campagne de communication numérique, dans un contexte international.<br>Le contexte international doit conduire les étudiants à s’exprimer, à l’écrit ou à l’oral, en langue étrangère.",

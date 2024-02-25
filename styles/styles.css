@@ -26,6 +26,7 @@ header {
     position: fixed;
     left: 0;
     right: 0;
+    z-index: 1000;
 }
 
 .center {
@@ -373,12 +374,17 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 80px;
 }
 .textss{
     text-align: center;
     color: white;
     margin: 0px;
     background: #E52165;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0 0 20px 20px;
 }
 .imm{
     border-radius: 20px 20px 0 0;
@@ -391,12 +397,13 @@ footer {
     justify-content: center;
     transition: 0.3s, height 0.3s;
     border-radius: 23px;
+    z-index: 500;
 }
 .bloc:hover{
     transform: scale(1.1);
 }
 .suite{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
 }
