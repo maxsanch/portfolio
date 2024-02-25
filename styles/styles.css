@@ -96,7 +96,7 @@ span{
 /* bandeau de la page  */
 
 .parent{
-    background-image: url(../img/robs-HOrhCnQsxnQ-unsplash.jpg);
+    background-image: url(../img/dégradé.png);
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -147,7 +147,6 @@ span{
     margin-bottom: 30px;
 }
 .titrecomp{
-    font-size: 23px;
     color: #E52165;
 }
 .competencesss{
@@ -183,7 +182,6 @@ span{
     margin-bottom: 10px;
 }
 .blocs{
-    font-size: 20px;
     width: 75%;
     margin-bottom: 40px;
 }
@@ -219,7 +217,7 @@ span{
 /* footer du site */
 
 footer {
-    background: url(../img/robs-HOrhCnQsxnQ-unsplash.jpg);
+    background: url(../img/dégradé.png);
     background-attachment: fixed;
     background-size: 100%;
     padding: 20px;
@@ -229,7 +227,7 @@ footer {
     align-items: center;
 }
 .sousfooter{
-    background: url(../img/robs-HOrhCnQsxnQ-unsplash.jpg);
+    background: url(../img/dégradé.png);
     background-size: cover;
     background-attachment: fixed;
     border-top: #fff solid 1px;
@@ -282,7 +280,7 @@ footer {
 }
 
 .rese:hover {
-    color: #B35959;
+    color: #E52165;
 }
 
 .droite {
@@ -298,3 +296,6 @@ footer {
 .bonjour:hover {
     color: rgb(228, 228, 228);
 }
+
+
+/* styles de la page 2 */
