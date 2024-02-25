@@ -69,7 +69,7 @@ span{
     justify-content: center;
 }
 .prenom{
-    margin-top: 80px;
+    margin-top: 100px;
 }
 .domaine{
     font-size: 24px;
@@ -299,3 +299,28 @@ footer {
 
 
 /* styles de la page 2 */
+
+/* le fil d'ariane */
+
+.ari{
+    color: white;
+    margin-top: 40px;
+}
+.ari:hover{
+    color: #E52165;
+}
+.parenta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ariane{
+    margin-top: 100px;
+}
+.hautpage{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
