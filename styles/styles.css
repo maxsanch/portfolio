@@ -472,6 +472,7 @@ footer {
     padding: 50px;
     padding-inline: 100px;
     transition: 0.5s;
+    color: #E52165;
 }
 .boutontel:hover{
     transform: scale(1.1);
@@ -508,3 +509,13 @@ footer {
     text-decoration: underline;
 }
 
+/* page contacts  */
+
+#bjr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#gap{
+    gap: 60px;
+}
