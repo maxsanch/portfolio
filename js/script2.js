@@ -44,6 +44,10 @@ document.querySelector("#premier").innerHTML = '<img src="../img/projets/' + LaS
 document.querySelector("#deux").innerHTML = '<img src="../img/projets/' + LaSAE + 'ill2.png" alt="illustration_maxence">'
 document.querySelector("#trois").innerHTML = '<img src="../img/projets/' + LaSAE + 'ill3.png" alt="illustration_maxence">'
 
+if(LaSAE="projet 4"){
+    document.querySelector("#trois").innerHTML='<iframe width="560" height="315" src="https://www.youtube.com/embed/_jRLkDJtrR4?si=_tLtZnjeU60TtVkr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+}
+
 let jsp = ""
 
 // afficher les liens dans le footer vers les différentes pages
