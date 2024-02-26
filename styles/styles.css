@@ -297,6 +297,9 @@ footer {
 .contactes {
     font-size: 20px;
 }
+.bonjour>.contactes{
+    margin-bottom: 20px;
+}
 
 .droite {
     margin-right: 2%;
@@ -403,8 +406,8 @@ footer {
     margin: 0px;
     background: #E52165;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-radius: 0 0 20px 20px;
 }
 .imm{
@@ -431,6 +434,53 @@ footer {
 
 /* styles des pages projets pro */
 
+.premier{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+.infos2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.letout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.letout>.illus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boutontel{
+    border: #E52165 solid 5px;
+    border-radius: 23px;
+    box-shadow: 0 0 10px rgba(229, 33, 101, 1);
+    padding: 50px;
+    padding-inline: 100px;
+    transition: 0.5s;
+}
+.boutontel:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(229, 33, 101, 1);
+}
+.lechef{
+    display: flex;
+    justify-content: center;
+}
 /* styles de la page projets perso */
 
 .parent3{
@@ -452,4 +502,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 50px;
 }
+.souligner{
+    text-decoration: underline;
+}
+

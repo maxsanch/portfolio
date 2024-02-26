@@ -71,8 +71,8 @@ const SAE = {
       },
       "livrables": {
         "Moodboard d'inspiration.": "Les étudiants ont réalisé un moodboard pour répertorier leurs inspirations.",
-        "motif sur illustrator.": "Les étudiants ont réalisé un moodboard pour répertorier leurs inspirations.",
-        "Mockup sur Photoshop.": "Les étudiants ont réalisé un moodboard pour répertorier leurs inspirations.",
+        "motif sur illustrator.": "Les étudiants ont réalisé un motif sur illustrator afin de, par la suite, le placer sur un tissue.",
+        "Mockup sur Photoshop.": "Les étudiants ont réalisé un mocku de leur motif sur un tissue afin de visualiser le rendu final.",
       },
       "réalisation": "Pour cette troisième SAE nous avons eu à « sauver le MISE ».<br>Nous avons alors du choisir un thème, pour ma part, les insectes volants, et créer des motifs afin de remplacer ceux qui ont été volés au MISE, le musée de l’impression sur étoffe, nous avons alors eu à créer des planches d’inspiration, des mockup et des motifs sur Illustrator pour ce travail.",
       "semestre": 1
@@ -116,9 +116,9 @@ const SAE = {
         "R1.13": "Hébergement"
       },
       "livrables": {
-        "Site web portfolio de compétence": "Pour cette SAE le but est de créer un site web pour notre portfolio, vous etes dessus",
+        "Site web portfolio de compétence": "Pour cette SAE le but est de créer un site web pour notre portfolio, j'ai cependant décider de le retravailler de A à Z afin de créer un site qui me ressemble plus, et qui me satisfait plus.",
       },
-      "réalisation": "La SAE 105, sur laquelle nous sommes est un portfolio regroupant les différentes SAE que nous pourrons créer, Le but était de créer un site personnel qui répertorie tous nos travaux.<br>J’ai alors choisi de faire un site correspondant à mes couleurs, plutôt bleuté afin qu’il corresponde plus à mon image.<br>Une base de données nous a été donnée afin que la majeure partie du site soit en java script (ce que vous lisez actuellement par exemple) et ainsi, facilitée l’ajout ou la suppression d’une SAE.",
+      "réalisation": "La SAE 105 est un site web portfolio regroupant les différentes SAE que nous pourrons créer, Le but était de créer un site personnel qui répertorie tous nos travaux.",
       "semestre": 1
     },
   

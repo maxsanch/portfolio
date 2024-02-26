@@ -6,8 +6,12 @@ for(let cle in SAE){
 
 document.querySelector(".suite").innerHTML=bouton
 
-let bonneSAE = new URLSearchParams(location.search);
-let LaSAE = bonneSAE.get('number');
 
-console.log(LaSAE)
+let jsp = ""
 
+// afficher les liens dans le footer vers les différentes pages
+
+for (let i in SAE) {
+    jsp += "<p> <a href='lesprojets.html?number=" + i + "' class='lienfooter'>" + i + "</a></p>"
+}
+document.querySelector('#link').innerHTML = jsp
