@@ -219,23 +219,23 @@ span {
 }
 
 .competencesss>.compet:nth-child(1)>.moliere:nth-child(3)>.barre>.intbarre {
-    width: 70%;
+    width: 65%;
 }
 
 .competencesss>.compet:nth-child(1)>.moliere:nth-child(4)>.barre>.intbarre {
-    width: 30%;
+    width: 35%;
 }
 
 .competencesss>.compet:nth-child(1)>.moliere:nth-child(5)>.barre>.intbarre {
-    width: 40%;
+    width: 60%;
 }
 
 .competencesss>.compet:nth-child(1)>.moliere:nth-child(6)>.barre>.intbarre {
-    width: 20%;
+    width: 30%;
 }
 
 .competencesss>.compet:nth-child(2)>.moliere:nth-child(2)>.barre>.intbarre {
-    width: 85%;
+    width: 70%;
 }
 
 .competencesss>.compet:nth-child(2)>.moliere:nth-child(3)>.barre>.intbarre {
@@ -243,11 +243,32 @@ span {
 }
 
 .competencesss>.compet:nth-child(2)>.moliere:nth-child(4)>.barre>.intbarre {
-    width: 75%;
+    width: 70%;
 }
 
 .competencesss>.compet:nth-child(2)>.moliere:nth-child(5)>.barre>.intbarre {
-    width: 30%;
+    width: 50%;
+}
+.competencesss>.compet:nth-child(2)>.moliere:nth-child(6)>.barre>.intbarre {
+    width: 0%;
+}
+.competencesss>.compet:nth-child(2)>.moliere:nth-child(7)>.barre>.intbarre {
+    width: 40%;
+}
+.competencesss>.compet:nth-child(3)>.moliere:nth-child(2)>.barre>.intbarre {
+    width: 80%;
+}
+.competencesss>.compet:nth-child(3)>.moliere:nth-child(3)>.barre>.intbarre {
+    width: 80%;
+}
+.competencesss>.compet:nth-child(3)>.moliere:nth-child(4)>.barre>.intbarre {
+    width: 0%;
+}
+.competencesss>.compet:nth-child(4)>.moliere:nth-child(2)>.barre>.intbarre {
+    width: 65%;
+}
+.competencesss>.compet:nth-child(4)>.moliere:nth-child(3)>.barre>.intbarre {
+    width: 50%;
 }
 
 
@@ -418,44 +439,17 @@ footer {
     justify-content: center;
     align-items: center;
 }
-.margin{
-    margin-top: 80px;
+.griddessins{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin: 20px;
 }
-
-/* l'icone de la maison */
-
-#accueilIcon {
-    position: fixed;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    cursor: pointer;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-  }
-  
-  #accueilIcon:hover .text {
-    animation: fadeIn 0.3s ease-in-out;
-  }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
-  .text {
-    display: none;
-    margin-left: 8px;
-  }
-  
-  #accueilIcon:hover .text {
-    display: inline;
-  }
-  
-  .hidden {
-    display: none;
-  }
+.perso{
+    width: 330px;
+}
+.parent4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

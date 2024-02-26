@@ -11,20 +11,3 @@ let LaSAE = bonneSAE.get('number');
 
 console.log(LaSAE)
 
-// icone pour la maison 
-
-document.addEventListener('DOMContentLoaded', function() {
-    const accueilIcon = document.getElementById('accueilIcon');
-  
-    if (accueilIcon) {
-      accueilIcon.addEventListener('click', function() {
-        // Redirigez vers l'index de votre site
-        window.location.href = 'index.html';
-      });
-  
-      // Affichez l'icône après un court délai
-      setTimeout(function() {
-        accueilIcon.style.opacity = 1;
-      }, 1000); // Vous pouvez ajuster le délai selon vos préférences
-    }
-  });
