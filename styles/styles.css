@@ -27,6 +27,26 @@ header {
     left: 0;
     right: 0;
     z-index: 1000;
+    transition: background-color 0.5s ease;
+}
+
+header::before {
+    content: ""; /* Ajout de cette ligne pour générer le pseudo-élément */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0; /* Largeur initiale à 0 pour l'animation d'entrée */
+    height: 3px;
+    background: linear-gradient(110deg, #e52165, transparent);
+    transition: width 1s ease;
+}
+
+header.scroll {
+    background: linear-gradient(110deg, #0D1137, #000000);
+}
+
+header.scroll::before {
+    width: 100%; /* Largeur à 100% lorsqu'il est défilé pour créer l'animation */
 }
 
 .center {
@@ -52,14 +72,13 @@ header {
 }
 
 .cont:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     box-shadow: 0 0 15px rgba(229, 33, 101, 1);
 }
 
 .cont {
-    margin-top: 20px;
+    margin: 20px;
     margin-right: 40px;
-    padding: 0px;
     padding-inline: 30px;
     background: #E52165;
     border-radius: 23px;
@@ -249,24 +268,31 @@ span {
 .competencesss>.compet:nth-child(2)>.moliere:nth-child(5)>.barre>.intbarre {
     width: 50%;
 }
+
 .competencesss>.compet:nth-child(2)>.moliere:nth-child(6)>.barre>.intbarre {
     width: 0%;
 }
+
 .competencesss>.compet:nth-child(2)>.moliere:nth-child(7)>.barre>.intbarre {
     width: 40%;
 }
+
 .competencesss>.compet:nth-child(3)>.moliere:nth-child(2)>.barre>.intbarre {
     width: 80%;
 }
+
 .competencesss>.compet:nth-child(3)>.moliere:nth-child(3)>.barre>.intbarre {
     width: 80%;
 }
+
 .competencesss>.compet:nth-child(3)>.moliere:nth-child(4)>.barre>.intbarre {
     width: 0%;
 }
+
 .competencesss>.compet:nth-child(4)>.moliere:nth-child(2)>.barre>.intbarre {
     width: 65%;
 }
+
 .competencesss>.compet:nth-child(4)>.moliere:nth-child(3)>.barre>.intbarre {
     width: 50%;
 }
@@ -297,7 +323,8 @@ footer {
 .contactes {
     font-size: 20px;
 }
-.bonjour>.contactes{
+
+.bonjour>.contactes {
     margin-bottom: 20px;
 }
 
@@ -394,13 +421,14 @@ footer {
 
 /* les sae a afficher */
 
-.parentsae{
+.parentsae {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 80px;
 }
-.textss{
+
+.textss {
     text-align: center;
     color: white;
     margin: 0px;
@@ -410,10 +438,12 @@ footer {
     padding-bottom: 20px;
     border-radius: 0 0 20px 20px;
 }
-.imm{
+
+.imm {
     border-radius: 20px 20px 0 0;
 }
-.bloc{
+
+.bloc {
     width: 400px;
     display: flex;
     align-items: center;
@@ -423,10 +453,12 @@ footer {
     border-radius: 23px;
     z-index: 500;
 }
-.bloc:hover{
+
+.bloc:hover {
     transform: scale(1.1);
 }
-.suite{
+
+.suite {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
@@ -434,13 +466,14 @@ footer {
 
 /* styles des pages projets pro */
 
-.premier{
+.premier {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 40px;
 }
-.infos2{
+
+.infos2 {
     display: flex;
     align-items: center;
     gap: 30px;
@@ -448,24 +481,28 @@ footer {
     margin-top: 80px;
     margin-bottom: 80px;
 }
-.letout{
+
+.letout {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     margin-top: 80px;
     margin-bottom: 80px;
 }
-.a{
+
+.a {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.letout>.illus{
+
+.letout>.illus {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.boutontel{
+
+.boutontel {
     border: #E52165 solid 5px;
     border-radius: 23px;
     box-shadow: 0 0 10px rgba(229, 33, 101, 1);
@@ -474,48 +511,56 @@ footer {
     transition: 0.5s;
     color: #E52165;
 }
-.boutontel:hover{
+
+.boutontel:hover {
     transform: scale(1.1);
     box-shadow: 0 0 20px rgba(229, 33, 101, 1);
 }
-.lechef{
+
+.lechef {
     display: flex;
     justify-content: center;
 }
+
 /* styles de la page projets perso */
 
-.parent3{
+.parent3 {
     margin-bottom: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.griddessins{
+
+.griddessins {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
     margin: 20px;
 }
-.perso{
+
+.perso {
     width: 330px;
 }
-.parent4{
+
+.parent4 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 50px;
 }
-.souligner{
+
+.souligner {
     text-decoration: underline;
 }
 
 /* page contacts  */
 
-#bjr{
+#bjr {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#gap{
+
+#gap {
     gap: 60px;
 }
