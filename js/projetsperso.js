@@ -20,3 +20,17 @@ for(let r=1; r<=5; r++){
 }
 console.log(D);
 document.querySelector("#eho").innerHTML=D
+
+document.addEventListener("DOMContentLoaded", function() {
+    var header = document.querySelector("header");
+  
+    window.addEventListener("scroll", function() {
+      var scrollPosition = window.scrollY;
+  
+      if (scrollPosition > 50) {
+        header.classList.add("scroll"); 
+      } else {
+        header.classList.remove("scroll");
+      }
+    });
+});
