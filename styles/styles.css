@@ -86,6 +86,83 @@ header.scroll::before {
     transition: 0.5s;
     color: #0D1137;
 }
+/* maison accueil  */
+
+.maison{
+    position: fixed;
+    z-index: 1000;
+    bottom: 60px;
+    right: 40px;
+}
+.maiss{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.hovermaison{
+    color: #0D1137;
+    transition: 1.3s;
+}
+.maiss:hover .hovermaison{
+    animation: décale 0.5s ease-in-out forwards;
+}
+@keyframes décale{
+    from{
+        font-size:0px;
+    }
+    to{
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+.maiss:not(:hover) .hovermaison{
+    animation: fermer 0.5s ease-in-out forwards;
+}
+@keyframes fermer{
+    0%{
+        font-size:20px;
+        padding: 10px;
+    }
+    100%{
+        font-size: 0px;
+        padding: 0px;
+    }
+}
+.maiss:hover svg{
+    animation: tourni 0.5s ease-in-out forwards;
+}
+@keyframes tourni{
+    from{
+        transform: rotate(0deg)
+    }
+    to{
+        transform: rotate(-360deg)
+    }
+}
+.maiss:not(:hover) svg{
+    animation: tourniautre 0.5s ease-in-out forwards;
+}
+@keyframes tourniautre{
+    from{
+        transform: rotate(-360deg)
+    }
+    to{
+        transform: rotate(0deg)
+    }
+}
+.hovermaison>b{
+    display: block !important;
+}
+.maison:hover{
+    transition: 1.3s;
+    box-shadow: 0 0 15px rgba(229, 33, 101, 1);
+}
+.maison{
+    padding: 10px;
+    border-radius: 23px;
+    background-color: #e52165;
+    box-shadow: 0 0 10px rgba(229, 33, 101, 1);
+}
 
 /* top de la page */
 
@@ -332,11 +409,14 @@ footer {
     margin-right: 2%;
 }
 
+
 /* liens du footer */
 .liens {
     margin-left: 40px;
     border-left: solid #fff;
     padding-inline: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .liens2 {
