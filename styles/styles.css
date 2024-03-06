@@ -31,11 +31,11 @@ header {
 }
 
 header::before {
-    content: ""; /* Ajout de cette ligne pour générer le pseudo-élément */
+    content: "";
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 0; /* Largeur initiale à 0 pour l'animation d'entrée */
+    width: 0;
     height: 3px;
     background: linear-gradient(110deg, #e52165, transparent);
     transition: width 1s ease;
@@ -46,10 +46,9 @@ header.scroll {
 }
 
 header.scroll::before {
-    width: 100%; /* Largeur à 100% lorsqu'il est défilé pour créer l'animation */
+    width: 100%;
 }
-
-.center {
+.center{
     display: flex;
     gap: 40px;
 }
@@ -86,6 +85,10 @@ header.scroll::before {
     transition: 0.5s;
     color: #0D1137;
 }
+.menutel{
+    display: none;
+}
+
 /* maison accueil  */
 
 .maison{
@@ -643,4 +646,349 @@ footer {
 
 #gap {
     gap: 60px;
+}
+
+/* styles du site pour les telephones */
+
+@media (max-width:600px){
+/* initialisation des bases */
+
+
+body {
+    font-size: 14px;
+}
+
+/* header du site  */
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.center{
+    display: none;
+}
+.p {
+    margin-left: 5%;
+}
+.cont {
+    display: none;
+}
+.menutel{
+    display: block;
+
+}
+
+/* top de la page */
+
+span {
+    color: #E52165;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.prenom {
+    margin-top: 15%;
+    font-size: 11px;
+}
+.nom{
+    font-size: 11px;
+}
+.domaine {
+    font-size: 17px;
+}
+
+/* les informations */
+
+.tel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infos {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.illus {
+    width: 80%;
+    margin: auto;
+}
+
+.texte {
+    width: 80%;
+    margin: auto;
+    grid-row: 2;
+}
+/* bandeau de la page  */
+
+.parent {
+    background-image: url(../img/dégradé.png);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bandeau {
+    width: 75%;
+    padding: 5;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+}
+.boutons{
+    background: #E52165;
+    box-shadow: 0 0 10px rgba(229, 33, 101, 1);
+    color: #0D1137;
+}
+
+/* le bandeau parcours */
+
+.texte2 {
+    width: 80%;
+}
+
+/* rubrique compétences */
+
+.competencesss {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+.gauchi{
+    font-weight: bold;
+}
+.barre{
+    margin-left: auto;
+    width: 100%;
+    grid-row: 2;
+    grid-column: 1/ span 2;
+}
+
+.moliere {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+/* footer du site */
+
+footer {
+    background: linear-gradient(110deg, #0D1137, #e5216676);
+    display: grid;
+    gap: 40px;
+}
+
+.sousfooter {
+    background: linear-gradient(110deg, #0D1137, #e5216676);
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: #fff solid 1px;
+    text-align: center;
+}
+
+.contactes {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.bonjour>.contactes {
+    margin-bottom: 20px;
+}
+
+.droite {
+    display: none;
+}
+
+
+/* liens du footer */
+
+.liens2 {
+    font-size: 20px;
+}
+
+/* styles de la page 2 */
+
+/* le fil d'ariane */
+
+.ari {
+    color: white;
+    margin-top: 40px;
+}
+
+.ari:hover {
+    color: #E52165;
+}
+
+.parenta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ariane {
+    margin-top: 150px;
+}
+
+.hautpage {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* les sae a afficher */
+
+.parentsae {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.textss {
+    text-align: center;
+    color: white;
+    margin: 0px;
+    background: #E52165;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+.imm {
+    border-radius: 20px 20px 0 0;
+}
+
+.bloc {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.3s, height 0.3s;
+    border-radius: 23px;
+    z-index: 500;
+}
+
+.bloc:hover {
+    transform: scale(1.1);
+}
+
+.suite {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+/* styles des pages projets pro */
+
+.premier {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+
+.infos2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.letout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.letout>.illus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boutontel {
+    border: #E52165 solid 5px;
+    border-radius: 23px;
+    box-shadow: 0 0 10px rgba(229, 33, 101, 1);
+    padding: 50px;
+    padding-inline: 100px;
+    transition: 0.5s;
+    color: #E52165;
+}
+
+.boutontel:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(229, 33, 101, 1);
+}
+
+.lechef {
+    display: flex;
+    justify-content: center;
+}
+
+/* styles de la page projets perso */
+
+.parent3 {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.griddessins {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin: 20px;
+}
+
+.perso {
+    width: 330px;
+}
+
+.parent4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.souligner {
+    text-decoration: underline;
+}
+
+/* page contacts  */
+
+#bjr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gap {
+    gap: 60px;
+}
 }
