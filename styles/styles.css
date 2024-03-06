@@ -74,7 +74,12 @@ header.scroll::before {
     transform: scale(1.1);
     box-shadow: 0 0 15px rgba(229, 33, 101, 1);
 }
-
+.deroutel{
+    display: none;
+}
+.deroutelo{
+    display: block;
+}
 .cont {
     margin: 20px;
     margin-right: 40px;
@@ -664,6 +669,9 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+.header2{
+    background: linear-gradient(110deg, #0D1137, #000000 );
+}
 .center{
     display: none;
 }
@@ -675,6 +683,11 @@ header {
 }
 .menutel{
     display: block;
+    margin-left: auto;
+    margin-right: 20px;
+}
+.deroutel{
+    padding: 10%;
 
 }
 
@@ -748,6 +761,7 @@ span {
     background: #E52165;
     box-shadow: 0 0 10px rgba(229, 33, 101, 1);
     color: #0D1137;
+    padding: 50px;
 }
 
 /* le bandeau parcours */
@@ -818,60 +832,13 @@ footer {
 
 /* le fil d'ariane */
 
-.ari {
-    color: white;
-    margin-top: 40px;
-}
-
-.ari:hover {
-    color: #E52165;
-}
-
-.parenta {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .ariane {
-    margin-top: 150px;
+    margin-top: 80px;
 }
-
-.hautpage {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
 /* les sae a afficher */
 
-.parentsae {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 80px;
-}
-
-.textss {
-    text-align: center;
-    color: white;
-    margin: 0px;
-    background: #E52165;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 0 0 20px 20px;
-}
-
-.imm {
-    border-radius: 20px 20px 0 0;
-}
-
 .bloc {
-    width: 400px;
+    width: 80%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -884,20 +851,25 @@ footer {
 .bloc:hover {
     transform: scale(1.1);
 }
-
+.suite>a{
+    display: flex;
+    justify-content: center;
+}
 .suite {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 50px;
+}
+.textss{
+    font-size: 14px;
 }
 
 /* styles des pages projets pro */
 
 .premier {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 40px;
+    display: grid;
+    gap: 20px;
+    font-size: 17px;
 }
 
 .infos2 {
@@ -911,16 +883,10 @@ footer {
 
 .letout {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 30px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-
-.a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
 .letout>.illus {
@@ -933,51 +899,37 @@ footer {
     border: #E52165 solid 5px;
     border-radius: 23px;
     box-shadow: 0 0 10px rgba(229, 33, 101, 1);
-    padding: 50px;
-    padding-inline: 100px;
-    transition: 0.5s;
-    color: #E52165;
-}
-
-.boutontel:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 20px rgba(229, 33, 101, 1);
-}
-
-.lechef {
-    display: flex;
-    justify-content: center;
+    padding: 30px;
+    padding-inline: 40px;
+    text-align: center;
+    font-weight: bold;
 }
 
 /* styles de la page projets perso */
 
 .parent3 {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.texte2{
+    margin: auto;
 }
 
 .griddessins {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 50px;
-    margin: 20px;
 }
 
 .perso {
-    width: 330px;
+    width: 250px;
 }
 
 .parent4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px;
-}
-
-.souligner {
-    text-decoration: underline;
+    margin: 0px;
 }
 
 /* page contacts  */

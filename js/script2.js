@@ -45,7 +45,7 @@ document.querySelector("#deux").innerHTML = '<img src="../img/projets/' + LaSAE 
 document.querySelector("#trois").innerHTML = '<img src="../img/projets/' + LaSAE + 'ill3.png" alt="illustration_maxence">'
 
 if(LaSAE=="projet 4"){
-    document.querySelector("#trois").innerHTML='<iframe width="560" height="315" src="https://www.youtube.com/embed/_jRLkDJtrR4?si=_tLtZnjeU60TtVkr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+    document.querySelector("#trois").innerHTML='<iframe width="90%" height="200" src="https://www.youtube.com/embed/_jRLkDJtrR4?si=_tLtZnjeU60TtVkr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
 }
 else{
     document.querySelector("#trois").innerHTML = '<img src="../img/projets/' + LaSAE + 'ill3.png" alt="illustration_maxence">'
@@ -73,3 +73,17 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     });
 });
+
+var oui = document.querySelector(".menutel");
+var deroulant = document.querySelector(".deroutel")
+
+oui.addEventListener("click", function() {
+    if(deroulant.classList.contains('deroutelo')){
+      document.querySelector(".deroutel").classList.remove("deroutelo");
+      document.querySelector("header").classList.remove("header2");
+    }
+    else{
+      document.querySelector(".deroutel").classList.add("deroutelo");
+      document.querySelector("header").classList.add("header2");
+    }
+  });

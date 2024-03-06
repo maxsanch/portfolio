@@ -20,3 +20,18 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     });
 });
+
+
+var oui = document.querySelector(".menutel");
+var deroulant = document.querySelector(".deroutel")
+
+oui.addEventListener("click", function() {
+  if(deroulant.classList.contains('deroutelo')){
+    document.querySelector(".deroutel").classList.remove("deroutelo");
+    document.querySelector("header").classList.remove("header2");
+  }
+  else{
+    document.querySelector(".deroutel").classList.add("deroutelo");
+    document.querySelector("header").classList.add("header2");
+  }
+});
