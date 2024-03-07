@@ -150,7 +150,7 @@ const SAE = {
       "réalisation": "Nous avons alors eu à réaliser une mindmap et des réunions de projets langues étrangères, ainsi que contacter les personnes nécessaires afin de faire parler du projet.<br>J’ai alors pour le premier projet, organisé une dégustation de plat à base de miel, avec un cuisinier et où, les GEII ont pu présenter leur projet derches connectées grâce à une vidéo.<br>Pour le second projet j’ai choisi de réaliser une soirée avec plusieurs activités de soir et une vente de bière disponible.",
       "semestre": 1
     },
-  }
+  };
 
 const dessin = {
     "dessin 1" : "<p>Voici l'une de mes création réalisée dans mon temps libre. Une grande passion pour le dessin grandit chez moi depuis maintenant plus de 4 ans, ce dessin date à présent de 2022, des réalisations plus récentes seront ajoutées au fil du temps.</p><p>Ce dernier est censé représenter Jim hopper de stranger things, interprété par David Harbour, ayant joué dans black widow ou encore dans Hellboy.</p>",
@@ -160,11 +160,11 @@ const dessin = {
     "dessin 5" : "<p>Voici l'une de mes création réalisée dans mon temps libre. Une grande passion pour le dessin grandit chez moi depuis maintenant plus de 4 ans, Ce dessin date de janvier 2023.</p><p>Ce dernier est censé représenter Tony Stark ou Iron man, interprété par Robert Downey Jr. ayant également joué dans des films tels que Sherlock Holmes 2009 ou plus récemment Oppenheimer.</p>",
     "dessin 6" : "<p>Voici l'une de mes création réalisée dans mon temps libre. Une grande passion pour le dessin grandit chez moi depuis maintenant plus de 4 ans, Ce dessin date de mars 2023.</p><p>Ce dernier est censé représenter Thomas Shelby, de la série Peaky Blinders, interprété par Cillian Murphy ayant également joué joué dans Oppenheimer.</p>",
     "dessin 7" : "<p>Voici l'une de mes création réalisée dans mon temps libre. Une grande passion pour le dessin grandit chez moi depuis maintenant plus de 4 ans, Ce dessin date de 2022.</p><p>Ce dernier est censé représenter Yuta Okkotsu, de la série d'animation Jujutsu Kaisen.</p>",
-}
+};
 const TroisD = {
-    "3D 1" : "<p>J'ai été pendant une courte periode un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes création réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version autonmale de cette arbre</p>"
-    "3D 2" : "<p>J'ai été pendant une courte periode un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes création réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version estivale de cette arbre</p>"
-    "3D 3" : "<p>J'ai été pendant une courte periode un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes création réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version hivernale de cette arbre</p>"
-    "3D 4" : "<p>J'ai été pendant une courte periode un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes création réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version printanière de cette arbre</p>"
-    "3D 5" : "<p>J'ai été pendant une courte periode un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes création réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version printanière de cette arbre</p>"
-}
+    "3D 1" : "<p>J'ai été pendant une courte periode un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes création réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version autonmale de cette arbre</p>",
+    "3D 2" : "<p>J'ai été pendant une courte periode un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes création réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version estivale de cette arbre</p>",
+    "3D 3" : "<p>J'ai été pendant une courte periode un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes création réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version hivernale de cette arbre</p>",
+    "3D 4" : "<p>J'ai été pendant une courte periode un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes création réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version printanière de cette arbre</p>",
+    "3D 5" : "<p>J'ai été pendant une courte periode un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes création réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version printanière de cette arbre</p>",
+};
