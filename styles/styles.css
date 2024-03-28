@@ -508,7 +508,32 @@ footer {
     align-items: center;
 }
 
-
+.abso{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(#e52165, #0D1137);
+    border-radius: 50px 70px 50px 10px;
+    animation: 2s bouger infinite;
+    position: absolute;
+    right: -30px;
+    bottom: -50px;
+    z-index: 500;
+}
+@keyframes bouger{
+    0%{
+        transform: scaleX(-20px);
+    }
+    50%{
+        transform: scaleX(20px);
+    }
+    100%{
+        transform: scaleX(-20px);
+    }
+}
+.txt{
+    position: relative;
+    z-index: 1000;
+}
 /* les sae a afficher */
 
 .parentsae {
