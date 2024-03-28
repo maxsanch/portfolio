@@ -280,7 +280,7 @@ span {
 
 .competencesss {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 20px;
 }
 
@@ -295,93 +295,35 @@ span {
     padding: 20px;
     border: 5px solid #E52165;
     border-radius: 20px;
+    gap: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+}
+.flexeee{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
 }
 
-.intbarre {
-    width: 35%;
-    background: #E52165;
-    padding: 5px;
-    border-radius: 20px;
+.compet>.molière:nth-child(1){
+    grid-row: 2/ span 2;
 }
 
 .moliere {
     display: flex;
     align-items: center;
     gap: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-inline: 60px;
 }
 
 .blocs {
     width: 75%;
     margin-bottom: 40px;
 }
-
-.competencesss>.compet:nth-child(1)>.moliere:nth-child(2)>.barre>.intbarre {
-    width: 50%;
-}
-
-.competencesss>.compet:nth-child(1)>.moliere:nth-child(3)>.barre>.intbarre {
-    width: 65%;
-}
-
-.competencesss>.compet:nth-child(1)>.moliere:nth-child(4)>.barre>.intbarre {
-    width: 35%;
-}
-
-.competencesss>.compet:nth-child(1)>.moliere:nth-child(5)>.barre>.intbarre {
-    width: 60%;
-}
-
-.competencesss>.compet:nth-child(1)>.moliere:nth-child(6)>.barre>.intbarre {
-    width: 30%;
-}
-
-.competencesss>.compet:nth-child(2)>.moliere:nth-child(2)>.barre>.intbarre {
-    width: 70%;
-}
-
-.competencesss>.compet:nth-child(2)>.moliere:nth-child(3)>.barre>.intbarre {
-    width: 60%;
-}
-
-.competencesss>.compet:nth-child(2)>.moliere:nth-child(4)>.barre>.intbarre {
-    width: 70%;
-}
-
-.competencesss>.compet:nth-child(2)>.moliere:nth-child(5)>.barre>.intbarre {
-    width: 50%;
-}
-
-.competencesss>.compet:nth-child(2)>.moliere:nth-child(6)>.barre>.intbarre {
-    width: 0%;
-}
-
-.competencesss>.compet:nth-child(2)>.moliere:nth-child(7)>.barre>.intbarre {
-    width: 40%;
-}
-
-.competencesss>.compet:nth-child(3)>.moliere:nth-child(2)>.barre>.intbarre {
-    width: 80%;
-}
-
-.competencesss>.compet:nth-child(3)>.moliere:nth-child(3)>.barre>.intbarre {
-    width: 80%;
-}
-
-.competencesss>.compet:nth-child(3)>.moliere:nth-child(4)>.barre>.intbarre {
-    width: 0%;
-}
-
-.competencesss>.compet:nth-child(4)>.moliere:nth-child(2)>.barre>.intbarre {
-    width: 65%;
-}
-
-.competencesss>.compet:nth-child(4)>.moliere:nth-child(3)>.barre>.intbarre {
-    width: 50%;
+.pourcent{
+    width: 50px;
+    margin-left: auto;
 }
 
 
@@ -508,32 +450,6 @@ footer {
     align-items: center;
 }
 
-.abso{
-    width: 100px;
-    height: 100px;
-    background: linear-gradient(#e52165, #0D1137);
-    border-radius: 50px 70px 50px 10px;
-    animation: 2s bouger infinite;
-    position: absolute;
-    right: -30px;
-    bottom: -50px;
-    z-index: 500;
-}
-@keyframes bouger{
-    0%{
-        transform: scaleX(-20px);
-    }
-    50%{
-        transform: scaleX(20px);
-    }
-    100%{
-        transform: scaleX(-20px);
-    }
-}
-.txt{
-    position: relative;
-    z-index: 1000;
-}
 /* les sae a afficher */
 
 .parentsae {
