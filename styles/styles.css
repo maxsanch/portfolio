@@ -284,13 +284,6 @@ span {
     gap: 20px;
 }
 
-.barre {
-    width: 50%;
-    background: #444444;
-    border-radius: 20px;
-    margin-left: auto;
-}
-
 .compet {
     padding: 20px;
     border: 5px solid #E52165;
@@ -450,7 +443,7 @@ footer {
     align-items: center;
 }
 
-/* les sae a afficher */
+/* les saes a afficher */
 
 .parentsae {
     display: flex;
@@ -596,7 +589,7 @@ footer {
     gap: 60px;
 }
 
-/* style de la page détail des projets persos */
+/* style de la page détail des projets perso */
 
 
 
@@ -719,24 +712,46 @@ span {
 
 /* rubrique compétences */
 
+
 .competencesss {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
 }
-.gauchi{
-    font-weight: bold;
+
+.compet {
+    padding: 10px;
+    border: 3px solid #E52165;
+    border-radius: 20px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
-.barre{
-    margin-left: auto;
-    width: 100%;
-    grid-row: 2;
-    grid-column: 1/ span 2;
+.flexeee{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.compet>.molière:nth-child(1){
+    grid-row: 2/ span 2;
 }
 
 .moliere {
-    display: grid;
-    grid-template-columns: auto 1fr;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-inline: 60px;
+}
+
+.blocs {
+    width: 75%;
+    margin-bottom: 40px;
+}
+.pourcent{
+    width: 50px;
+    margin-left: auto;
 }
 
 /* footer du site */
@@ -782,7 +797,7 @@ footer {
 .ariane {
     margin-top: 80px;
 }
-/* les sae a afficher */
+/* les saes a afficher */
 
 .bloc {
     width: 80%;

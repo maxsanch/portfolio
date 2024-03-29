@@ -7,7 +7,7 @@ for (let i in SAE) {
 }
 document.querySelector('#link').innerHTML = jsp
 
-// affichage des projets persos 
+// affichage des projets perso
 
 let photos = ""
 

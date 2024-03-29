@@ -60,6 +60,8 @@ for (let i in SAE) {
 }
 document.querySelector('#link').innerHTML = jsp
 
+// changement du header au scroll 
+
 document.addEventListener("DOMContentLoaded", function() {
     var header = document.querySelector("header");
   
@@ -76,6 +78,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 var oui = document.querySelector(".menutel");
 var deroulant = document.querySelector(".deroutel")
+
+// menu déroulant téléphone
 
 oui.addEventListener("click", function() {
     if(deroulant.classList.contains('deroutelo')){

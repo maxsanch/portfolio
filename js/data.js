@@ -163,11 +163,11 @@ const perso = {
     "dessin 7": "<p>Voici l'une de mes créations, réalisée dans mon temps libre. Une grande passion pour le dessin grandit chez moi depuis maintenant plus de 4 ans, Ce dessin date de 2022.</p><p>Ce dernier est censé représenter Yuta Okkotsu, de la série d'animation Jujutsu Kaisen.</p>",
   },
   "TroisD": {
-    "3D 1": "<p>J'ai été pendant une courte periode un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes création réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version autonmale de cette arbre.</p>",
-    "3D 2": "<p>J'ai été pendant une courte periode un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes création réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version estivale de cette arbre.</p>",
-    "3D 3": "<p>J'ai été pendant une courte periode un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes création réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version hivernale de cette arbre.</p>",
-    "3D 4": "<p>J'ai été pendant une courte periode un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes création réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version printanière de cette arbre.</p>",
-    "3D 5": "<p>J'ai été pendant une courte periode un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes création réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version printanière de cette arbre.</p>",
+    "3D 1": "<p>J'ai été pendant une courte période un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes créations réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version automnale de cet arbre.</p>",
+    "3D 2": "<p>J'ai été pendant une courte période un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes créations réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version estivale de cet arbre.</p>",
+    "3D 3": "<p>J'ai été pendant une courte période un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes créations réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version hivernale de cet arbre.</p>",
+    "3D 4": "<p>J'ai été pendant une courte période un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes créations réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version printanière de cet arbre.</p>",
+    "3D 5": "<p>J'ai été pendant une courte période un grand féru de 3D, un peu moins pratiquer ces dernières années, voici l'une de mes créations réalisée en 2022, représentant un simple arbre.</p><p>ici, vous pouvez voir la version printanière de cet arbre.</p>",
   },
   "photo": {
     "photo 1": "<p>Voici l'une des photos prises au zoo de Mulhouse avec un appareil très performant, cette photo a été prise le 16 mars 2024.</p><p>Il s'agit ici d'un Loup à crinière.</p>",
